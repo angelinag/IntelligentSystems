@@ -11,4 +11,5 @@ move(M,X,Z,Y),
 move(1,X,Y,_),
 move(M,Z,Y,X).
 
+% testvame za 3 %
 myProgEntryPoint :- move(3,left,right,center).
